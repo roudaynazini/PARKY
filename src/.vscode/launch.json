@@ -1,0 +1,23 @@
+{
+    "configurations": [
+      {
+        "type": "cppdbg",
+        "request": "launch",
+        "name": "Debug parky",
+        "program": "${workspaceFolder}/parking",
+        "args": [],
+        "cwd": "${workspaceFolder}",
+        "stopAtEntry": false,
+        "externalConsole": false,
+        "MIMode": "gdb",
+        "preLaunchTask": "build",
+        "setupCommands": [
+          {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+          }
+        ]
+      }
+    ]
+  }
